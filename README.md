@@ -2,7 +2,13 @@
 
 ## Tech stack
   Spring boot, Java 11, Maven, Lombok, swagger.
-  
+ 
+## Import step for eclipse
+  1. clone git repo from url : https://github.com/sharingcodetask/roboTask 
+     a. select only master branch
+  2. right click working tree(in git repo view)and import project.
+     a. select the folder of maven type.
+  3. project is imported in project explorer.
 ## Running instructions using mvn:
     1. build project using mvn install
       Sample:  C:\Users\bansa\git\repository\robot>mvn clean install
