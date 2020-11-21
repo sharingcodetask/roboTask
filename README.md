@@ -22,18 +22,18 @@
 ## App can be accessed with url http://localhost:8080/swagger-ui/index.html on browser
 ## Or using below request from postman 
   
-  POST    http://localhost:8080/api/v1/robots/clean
-  Request
-          {
-          "areaSize" : [5, 5],
-          "startingPosition" : [1, 2],
-          "oilPatches" : [
-            [1, 0],
-            [2, 2],
-            [2, 3]
-        ],
-          "navigationInstructions" : "NNESEESWNWW"
-        }
+  1. POST    http://localhost:8080/api/v1/robots/clean
+      Request
+              {
+              "areaSize" : [5, 5],
+              "startingPosition" : [1, 2],
+              "oilPatches" : [
+                [1, 0],
+                [2, 2],
+                [2, 3]
+            ],
+              "navigationInstructions" : "NNESEESWNWW"
+            }
         
 ## Note: test cases are not exhaustive due to time limitation but pretty much gives the design.
 
