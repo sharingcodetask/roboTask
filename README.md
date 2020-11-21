@@ -20,7 +20,8 @@
       where  "C:\Users\bansa\git\repository\robot" is the project location
       
 ## App can be accessed with url http://localhost:8080/swagger-ui/index.html on browser
-##  or using below request from postman 
+## Or using below request from postman 
+  
   POST    http://localhost:8080/api/v1/robots/clean
   Request
           {
